@@ -7,3 +7,5 @@ fitur yang ada :
 1. Menampilkan 3 departemen/biro terbaik
 2. menampilkan 3 departemen/biro terburuk
 3. menampilkan track record dari tiap departemen
+
+link untuk survey yang digunakan : https://survey.stsn-nci.ac.id/index.php/694525
