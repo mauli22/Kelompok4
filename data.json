@@ -1,0 +1,42 @@
+{
+    "responses": [
+        {
+            "1":
+            {
+                "id":"1",
+                "submitdate":"1980-01-01 00:00:00",
+                "lastpage":"1",
+                "startlanguage":"id",
+                "Bulan1[SQ001]":"A2",
+                "Bulan1[SQ002]":"A3",
+                "Bulan1[SQ003]":"A2",
+                "Bulan1[SQ004]":"A3",
+                "Bulan1[SQ005]":"A3",
+                "Bulan1[SQ006]":"A2",
+                "Bulan1[SQ007]":"A2",
+                "Bulan1[SQ008]":"A3",
+                "Bulan1[SQ009]":"A2",
+                "Bulan1[SQ010]":"A2",
+                "Bulan1[SQ011]":"A3"}
+            },
+        {
+            "4":
+            {
+                "id":"4",
+                "submitdate":"1980-01-01 00:00:00",
+                "lastpage":"1",
+                "startlanguage":"id",
+                "Bulan1[SQ001]":"A1",
+                "Bulan1[SQ002]":"A2",
+                "Bulan1[SQ003]":"A3",
+                "Bulan1[SQ004]":"A2",
+                "Bulan1[SQ005]":"A2",
+                "Bulan1[SQ006]":"A3",
+                "Bulan1[SQ007]":"A3",
+                "Bulan1[SQ008]":"A3",
+                "Bulan1[SQ009]":"A2",
+                "Bulan1[SQ010]":"A3",
+                "Bulan1[SQ011]":"A3"
+            }
+        },
+        {"10":{"id":"10","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"11":{"id":"11","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A5","Bulan1[SQ002]":"A5","Bulan1[SQ003]":"A5","Bulan1[SQ004]":"A5","Bulan1[SQ005]":"A5","Bulan1[SQ006]":"A5","Bulan1[SQ007]":"A5","Bulan1[SQ008]":"A5","Bulan1[SQ009]":"A5","Bulan1[SQ010]":"A5","Bulan1[SQ011]":"A5"}},{"12":{"id":"12","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A3","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A3","Bulan1[SQ007]":"A3","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"14":{"id":"14","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A1","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"17":{"id":"17","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A3","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A3","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A1","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"18":{"id":"18","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A3","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A1","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A3","Bulan1[SQ006]":"A3","Bulan1[SQ007]":"A1","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A3"}},{"22":{"id":"22","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A4","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A3","Bulan1[SQ005]":"A3","Bulan1[SQ006]":"A4","Bulan1[SQ007]":"A4","Bulan1[SQ008]":"A3","Bulan1[SQ009]":"A3","Bulan1[SQ010]":"A3","Bulan1[SQ011]":"A3"}},{"23":{"id":"23","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"24":{"id":"24","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A1","Bulan1[SQ002]":"A1","Bulan1[SQ003]":"A1","Bulan1[SQ004]":"A1","Bulan1[SQ005]":"A1","Bulan1[SQ006]":"A1","Bulan1[SQ007]":"A1","Bulan1[SQ008]":"A1","Bulan1[SQ009]":"A1","Bulan1[SQ010]":"A1","Bulan1[SQ011]":"A1"}},{"25":{"id":"25","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"26":{"id":"26","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"28":{"id":"28","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A1","Bulan1[SQ004]":"A1","Bulan1[SQ005]":"A1","Bulan1[SQ006]":"A1","Bulan1[SQ007]":"A1","Bulan1[SQ008]":"A1","Bulan1[SQ009]":"A1","Bulan1[SQ010]":"A1","Bulan1[SQ011]":"A1"}},{"29":{"id":"29","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A3","Bulan1[SQ002]":"A3","Bulan1[SQ003]":"A3","Bulan1[SQ004]":"A3","Bulan1[SQ005]":"A3","Bulan1[SQ006]":"A4","Bulan1[SQ007]":"A5","Bulan1[SQ008]":"A4","Bulan1[SQ009]":"A3","Bulan1[SQ010]":"A3","Bulan1[SQ011]":"A5"}},{"30":{"id":"30","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A3","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A3","Bulan1[SQ006]":"A3","Bulan1[SQ007]":"A4","Bulan1[SQ008]":"A3","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A3","Bulan1[SQ011]":"A3"}},{"31":{"id":"31","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A2","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A2","Bulan1[SQ011]":"A2"}},{"33":{"id":"33","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A1","Bulan1[SQ003]":"A3","Bulan1[SQ004]":"A3","Bulan1[SQ005]":"A4","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A3","Bulan1[SQ008]":"A4","Bulan1[SQ009]":"A5","Bulan1[SQ010]":"A4","Bulan1[SQ011]":"A3"}},{"34":{"id":"34","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A3","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A1","Bulan1[SQ004]":"A4","Bulan1[SQ005]":"A4","Bulan1[SQ006]":"A5","Bulan1[SQ007]":"A4","Bulan1[SQ008]":"A3","Bulan1[SQ009]":"A4","Bulan1[SQ010]":"A4","Bulan1[SQ011]":"A3"}},{"49":{"id":"49","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A2","Bulan1[SQ002]":"A2","Bulan1[SQ003]":"A2","Bulan1[SQ004]":"A2","Bulan1[SQ005]":"A1","Bulan1[SQ006]":"A2","Bulan1[SQ007]":"A2","Bulan1[SQ008]":"A2","Bulan1[SQ009]":"A2","Bulan1[SQ010]":"A1","Bulan1[SQ011]":"A2"}},{"51":{"id":"51","submitdate":"1980-01-01 00:00:00","lastpage":"1","startlanguage":"id","Bulan1[SQ001]":"A3","Bulan1[SQ002]":"A3","Bulan1[SQ003]":"A3","Bulan1[SQ004]":"A3","Bulan1[SQ005]":"A3","Bulan1[SQ006]":"A3","Bulan1[SQ007]":"A3","Bulan1[SQ008]":"A3","Bulan1[SQ009]":"A3","Bulan1[SQ010]":"A3","Bulan1[SQ011]":"A3"}}]}
