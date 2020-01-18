@@ -60,32 +60,32 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	<h1>Hello, world!</h1>
 
 	<?php
-	// // receive surveys list current user can read
-	 $groups = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'complete' );
-	 $groups1 = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'all' );
+	// receive surveys list current user can read
+	//$groups = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'complete' );
+	$groups1 = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'all' );
 	//print_r(base64_decode($groups), null );
-	$data = json_decode(base64_decode($groups), true);
+	//$data = json_decode(base64_decode($groups), true);
 	$data1 = json_decode(base64_decode($groups1), true);
 	//var_dump($data);
-	$complete = $data['responses'];
+	//$complete = $data['responses'];
 	$jumlahall = $data1['responses'];
 	$arraySQ001 = [];
+	$str="";
+	$SQ001="";
+	$c=0;
 	//print_r($data);
 	echo ("pkhp <br>");
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		// $x=0;
-		$c = $i+1;
-		// if($c == 85) {
-		// 	$x = 86;
+		$c +=1;
+		 if($c == 85) {
+		 	$SQ001 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ001]"];
+			$arraySQ001[$i] = $x;
+		 }else{
 		 	$SQ001 = $jumlahall[$i][(string)$c]["Bulan1[SQ001]"];
-		 $arraySQ001[$i] = $SQ001;
-		 //else{
-		//$d = $x;
-		$SQ001 = $jumlahall[$i][(string)$c]["Bulan1[SQ001]"];
-		$arraySQ001[$i] = $SQ001;
-		//print_r($arraySQ001[$i]);
-		//}
-		}
+		 	$arraySQ001[$i] = $SQ001;
+		 }
+	}
 	$nilaiPKHP=0;
 	foreach ($arraySQ001 as $a) {
 		if ($a == "A1") {
