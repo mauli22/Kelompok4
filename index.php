@@ -76,15 +76,14 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	//print_r($data);
 	echo ("pkhp <br>");
 	for ($i=0; $i < count($jumlahall) ; $i++) {
-		// $x=0;
-		$c +=1;
-		 if($c == 85) {
-		 	$SQ001 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ001]"];
-			$arraySQ001[$i] = $x;
-		 }else{
-		 	$SQ001 = $jumlahall[$i][(string)$c]["Bulan1[SQ001]"];
-		 	$arraySQ001[$i] = $SQ001;
-		 }
+		$c = $i+1;
+		if($c > 84){
+			$SQ001 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ001]"];
+			$arraySQ001[$i] = $SQ001;
+		}else{
+			$SQ001 = $jumlahall[$i][(string)$c]["Bulan1[SQ001]"];
+			$arraySQ001[$i] = $SQ001;
+		}		
 	}
 	$nilaiPKHP=0;
 	foreach ($arraySQ001 as $a) {
