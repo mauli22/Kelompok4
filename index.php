@@ -74,7 +74,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	$SQ001="";
 	$c=0;
 	//print_r($data);
-	echo ("pkhp <br>");
+	echo ("Biro Perencanaan Kemahasiswaan Humas dan Protokol <br>");
 	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
 		if($c > 84){
@@ -103,7 +103,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	}
 	echo "nilai PKHP = ".$nilaiPKHP;
 
-	echo ("<br> birum <br>");
+	echo ("<br> Biro Umum <br>");
 	$arraySQ002 = [];
 	$SQ002="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
