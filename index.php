@@ -60,7 +60,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	<h1>Hello, world!</h1>
 
 	<?php
-	// receive surveys list current user can read
+	// // receive surveys list current user can read
 	//$groups = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'complete' );
 	$groups1 = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', null, 'all' );
 	//print_r(base64_decode($groups), null );
@@ -105,11 +105,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> birum <br>");
 	$arraySQ002 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ002="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ002 = $jumlahall[$i][(string)$c]["Bulan1[SQ002]"];
-		$arraySQ002[$i] = $SQ002;
-		//print_r($arraySQ002);
+		if($c > 84){
+			$SQ002 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ002]"];
+			$arraySQ002[$i] = $SQ002;
+		}else{
+			$SQ002 = $jumlahall[$i][(string)$c]["Bulan1[SQ002]"];
+			$arraySQ002[$i] = $SQ002;
+		}		
 	}
 	$nilaiBirum=0;
 	foreach ($arraySQ002 as $a) {
@@ -131,11 +136,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Rohani <br>");
 	$arraySQ003 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ003="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ003 = $jumlahall[$i][(string)$c]["Bulan1[SQ003]"];
-		$arraySQ003[$i] = $SQ003;
-		//print_r($arraySQ003);
+		if($c > 84){
+			$SQ003 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ003]"];
+			$arraySQ003[$i] = $SQ003;
+		}else{
+			$SQ003 = $jumlahall[$i][(string)$c]["Bulan1[SQ003]"];
+			$arraySQ003[$i] = $SQ003;
+		}		
 	}
 	$nilaiDeproh=0;
 	foreach ($arraySQ003 as $a) {
@@ -157,11 +167,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Riset Pengembangan Teknologi <br>");
 	$arraySQ004 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ004="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ004 = $jumlahall[$i][(string)$c]["Bulan1[SQ004]"];
-		$arraySQ004[$i] = $SQ004;
-		//print_r($arraySQ004);
+		if($c > 84){
+			$SQ004 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ004]"];
+			$arraySQ004[$i] = $SQ004;
+		}else{
+			$SQ004 = $jumlahall[$i][(string)$c]["Bulan1[SQ004]"];
+			$arraySQ004[$i] = $SQ004;
+		}		
 	}
 	$nilaiDepristek=0;
 	foreach ($arraySQ004 as $a) {
@@ -183,11 +198,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Akademik Mahasiswa <br>");
 	$arraySQ005 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ005="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ005 = $jumlahall[$i][(string)$c]["Bulan1[SQ005]"];
-		$arraySQ005[$i] = $SQ005;
-		//print_r($arraySQ005);
+		if($c > 84){
+			$SQ005 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ005]"];
+			$arraySQ005[$i] = $SQ005;
+		}else{
+			$SQ005 = $jumlahall[$i][(string)$c]["Bulan1[SQ005]"];
+			$arraySQ005[$i] = $SQ005;
+		}		
 	}
 	$nilaiDepdik=0;
 	foreach ($arraySQ005 as $a) {
@@ -209,11 +229,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Olahraga <br>");
 	$arraySQ006 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ006="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ006 = $jumlahall[$i][(string)$c]["Bulan1[SQ006]"];
-		$arraySQ006[$i] = $SQ006;
-		//print_r($arraySQ006);
+		if($c > 84){
+			$SQ006 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ006]"];
+			$arraySQ006[$i] = $SQ006;
+		}else{
+			$SQ006 = $jumlahall[$i][(string)$c]["Bulan1[SQ006]"];
+			$arraySQ006[$i] = $SQ006;
+		}		
 	}
 	$nilaiDepor=0;
 	foreach ($arraySQ006 as $a) {
@@ -235,11 +260,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Kesenian <br>");
 	$arraySQ007 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ007="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ007 = $jumlahall[$i][(string)$c]["Bulan1[SQ007]"];
-		$arraySQ007[$i] = $SQ007;
-		//print_r($arraySQ007);
+		if($c > 84){
+			$SQ007 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ007]"];
+			$arraySQ007[$i] = $SQ007;
+		}else{
+			$SQ007 = $jumlahall[$i][(string)$c]["Bulan1[SQ007]"];
+			$arraySQ007[$i] = $SQ007;
+		}		
 	}
 	$nilaiDepsen=0;
 	foreach ($arraySQ007 as $a) {
@@ -261,11 +291,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Perniagaan <br>");
 	$arraySQ008 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ008="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ008 = $jumlahall[$i][(string)$c]["Bulan1[SQ008]"];
-		$arraySQ008[$i] = $SQ008;
-		//print_r($arraySQ008);
+		if($c > 84){
+			$SQ008 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ008]"];
+			$arraySQ008[$i] = $SQ008;
+		}else{
+			$SQ008 = $jumlahall[$i][(string)$c]["Bulan1[SQ008]"];
+			$arraySQ008[$i] = $SQ008;
+		}		
 	}
 	$nilaiDepniag=0;
 	foreach ($arraySQ008 as $a) {
@@ -287,11 +322,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Asrama <br>");
 	$arraySQ009 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ009="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ009 = $jumlahall[$i][(string)$c]["Bulan1[SQ009]"];
-		$arraySQ009[$i] = $SQ009;
-		//print_r($arraySQ009);
+		if($c > 84){
+			$SQ009 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ009]"];
+			$arraySQ009[$i] = $SQ009;
+		}else{
+			$SQ009 = $jumlahall[$i][(string)$c]["Bulan1[SQ009]"];
+			$arraySQ009[$i] = $SQ009;
+		}		
 	}
 	$nilaiDepas=0;
 	foreach ($arraySQ009 as $a) {
@@ -313,11 +353,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Kesenian <br>");
 	$arraySQ010 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ010="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ010 = $jumlahall[$i][(string)$c]["Bulan1[SQ010]"];
-		$arraySQ010[$i] = $SQ010;
-		//print_r($arraySQ010);
+		if($c > 84){
+			$SQ010 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ010]"];
+			$arraySQ010[$i] = $SQ010;
+		}else{
+			$SQ010 = $jumlahall[$i][(string)$c]["Bulan1[SQ010]"];
+			$arraySQ010[$i] = $SQ010;
+		}		
 	}
 	$nilaiDepkesma=0;
 	foreach ($arraySQ010 as $a) {
@@ -339,11 +384,16 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 	echo ("<br> Departemen Sosial dan Lingkungan <br>");
 	$arraySQ011 = [];
-	for ($i=0; $i < count($jumlahall)-7 ; $i++) {
+	$SQ011="";
+	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
-		$SQ011 = $jumlahall[$i][(string)$c]["Bulan1[SQ011]"];
-		$arraySQ011[$i] = $SQ011;
-		//print_r($arraySQ011);
+		if($c > 84){
+			$SQ011 = $jumlahall[$i][(string)$c+1]["Bulan1[SQ011]"];
+			$arraySQ011[$i] = $SQ011;
+		}else{
+			$SQ011 = $jumlahall[$i][(string)$c]["Bulan1[SQ011]"];
+			$arraySQ011[$i] = $SQ011;
+		}		
 	}
 	$nilaiDepsos=0;
 	foreach ($arraySQ011 as $a) {
