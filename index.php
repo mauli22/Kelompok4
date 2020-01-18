@@ -74,7 +74,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	$SQ001="";
 	$c=0;
 	//print_r($data);
-	echo ("Biro Perencanaan Kemahasiswaan Humas dan Protokol <br>");
+	echo ("pkhp <br>");
 	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
 		if($c > 84){
@@ -103,7 +103,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	}
 	echo "nilai PKHP = ".$nilaiPKHP;
 
-	echo ("<br> Biro Umum <br>");
+	echo ("<br> birum <br>");
 	$arraySQ002 = [];
 	$SQ002="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -412,6 +412,24 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		}
 	  }
 	echo "nilai Departemen Sosial dan Lingkungan = ".$nilaiDepsos;
+
+	$arrayNilai = [$nilaiBirum, $nilaiDepas, $nilaiDepdik, $nilaiDepkesma, $nilaiDepniag, $nilaiDepor, $nilaiDepristek, $nilaiDeproh, $nilaiDepsen, $nilaiDepsos, $nilaiPKHP];
+	//print_r($arrayNilai);
+	sort($arrayNilai);
+	$jumlah=count($arrayNilai);
+	echo "<br> Nilai terendah <br>";
+	for($x=1;$x<4;$x++){
+		echo "peringkat ke-".$x." ";
+		echo $arrayNilai[$x];
+		echo "<br>";
+	}
+	rsort($arrayNilai);
+	echo "<br> Nilai tertinggi <br>";
+	for($x=1;$x<4;$x++){
+		echo "peringkat ke-".$x." ";
+		echo $arrayNilai[$x];
+		echo "<br>";
+	}
 
 	?>
 
