@@ -74,7 +74,8 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 	$SQ001="";
 	$c=0;
 	//print_r($data);
-	echo ("pkhp <br>");
+	
+	//echo ("pkhp <br>");
 	for ($i=0; $i < count($jumlahall) ; $i++) {
 		$c = $i+1;
 		if($c > 84){
@@ -101,9 +102,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiPKHP +=0;
 		}
 	}
-	echo "nilai PKHP = ".$nilaiPKHP;
+	//echo "nilai PKHP = ".$nilaiPKHP;
 
-	echo ("<br> birum <br>");
+	//echo ("<br> birum <br>");
 	$arraySQ002 = [];
 	$SQ002="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -132,9 +133,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiBirum +=0;
 		}
 	  }
-	echo "nilai Biro Umum = ".$nilaiBirum;
+	//echo "nilai Biro Umum = ".$nilaiBirum;
 
-	echo ("<br> Departemen Rohani <br>");
+	//echo ("<br> Departemen Rohani <br>");
 	$arraySQ003 = [];
 	$SQ003="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -163,9 +164,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDeproh +=0;
 		}
 	  }
-	echo "nilai Departemen Rohani = ".$nilaiDeproh;
+	//echo "nilai Departemen Rohani = ".$nilaiDeproh;
 
-	echo ("<br> Departemen Riset Pengembangan Teknologi <br>");
+	//echo ("<br> Departemen Riset Pengembangan Teknologi <br>");
 	$arraySQ004 = [];
 	$SQ004="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -194,9 +195,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepristek +=0;
 		}
 	  }
-	echo "nilai Departemen Riset Pengembangan Teknologi = ".$nilaiDepristek;
+	//echo "nilai Departemen Riset Pengembangan Teknologi = ".$nilaiDepristek;
 
-	echo ("<br> Departemen Akademik Mahasiswa <br>");
+	//echo ("<br> Departemen Akademik Mahasiswa <br>");
 	$arraySQ005 = [];
 	$SQ005="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -225,9 +226,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepdik +=0;
 		}
 	  }
-	echo "nilai Departemen Akademik Mahasiswa = ".$nilaiDepdik;
+	//echo "nilai Departemen Akademik Mahasiswa = ".$nilaiDepdik;
 
-	echo ("<br> Departemen Olahraga <br>");
+	//echo ("<br> Departemen Olahraga <br>");
 	$arraySQ006 = [];
 	$SQ006="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -256,9 +257,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepor +=0;
 		}
 	  }
-	echo "nilai Departemen Olahraga = ".$nilaiDepor;
+	//echo "nilai Departemen Olahraga = ".$nilaiDepor;
 
-	echo ("<br> Departemen Kesenian <br>");
+	//echo ("<br> Departemen Kesenian <br>");
 	$arraySQ007 = [];
 	$SQ007="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -287,9 +288,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepsen +=0;
 		}
 	  }
-	echo "nilai Departemen Kesenian = ".$nilaiDepsen;
+	//echo "nilai Departemen Kesenian = ".$nilaiDepsen;
 
-	echo ("<br> Departemen Perniagaan <br>");
+	//echo ("<br> Departemen Perniagaan <br>");
 	$arraySQ008 = [];
 	$SQ008="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -318,9 +319,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepniag +=0;
 		}
 	  }
-	echo "nilai Departemen Perniagaan = ".$nilaiDepniag;
+	//echo "nilai Departemen Perniagaan = ".$nilaiDepniag;
 
-	echo ("<br> Departemen Asrama <br>");
+	//echo ("<br> Departemen Asrama <br>");
 	$arraySQ009 = [];
 	$SQ009="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -349,9 +350,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepas +=0;
 		}
 	  }
-	echo "nilai Departemen Asrama = ".$nilaiDepas;
+	//echo "nilai Departemen Asrama = ".$nilaiDepas;
 
-	echo ("<br> Departemen Kesenian <br>");
+	//echo ("<br> Departemen Kesenian <br>");
 	$arraySQ010 = [];
 	$SQ010="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -380,9 +381,9 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepkesma +=0;
 		}
 	  }
-	echo "nilai Departemen Kesejahteraan Mahasiswa = ".$nilaiDepkesma;
+	//echo "nilai Departemen Kesejahteraan Mahasiswa = ".$nilaiDepkesma;
 
-	echo ("<br> Departemen Sosial dan Lingkungan <br>");
+	//echo ("<br> Departemen Sosial dan Lingkungan <br>");
 	$arraySQ011 = [];
 	$SQ011="";
 	for ($i=0; $i < count($jumlahall) ; $i++) {
@@ -411,24 +412,74 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 		  $nilaiDepsos +=0;
 		}
 	  }
-	echo "nilai Departemen Sosial dan Lingkungan = ".$nilaiDepsos;
+	//echo "nilai Departemen Sosial dan Lingkungan = ".$nilaiDepsos;
 
 	$arrayNilai = [$nilaiBirum, $nilaiDepas, $nilaiDepdik, $nilaiDepkesma, $nilaiDepniag, $nilaiDepor, $nilaiDepristek, $nilaiDeproh, $nilaiDepsen, $nilaiDepsos, $nilaiPKHP];
 	//print_r($arrayNilai);
 	sort($arrayNilai);
 	$jumlah=count($arrayNilai);
 	echo "<br> Nilai terendah <br>";
-	for($x=1;$x<4;$x++){
-		echo "peringkat ke-".$x." ";
+	for($x=0;$x<3;$x++){
+		echo "peringkat ke-".($x+1)." ";
 		echo $arrayNilai[$x];
 		echo "<br>";
 	}
 	rsort($arrayNilai);
 	echo "<br> Nilai tertinggi <br>";
-	for($x=1;$x<4;$x++){
-		echo "peringkat ke-".$x." ";
+	for($x=0;$x<3;$x++){
+		echo "peringkat ke-".($x+1)." ";
 		echo $arrayNilai[$x];
 		echo "<br>";
+	}
+
+	//masuk fase sorting
+	$nilai_pref = ["Biro PKHP" => $nilaiPKHP, 
+	"Biro Umum" => $nilaiBirum, 
+	"Departemen Rohani" => $nilaiDeproh, 
+	"Departemen Akademik" => $nilaiDepdik, 
+	"Departemen Riset Teknologi" => $nilaiDepristek, 
+	"Departemen Olahraga" => $nilaiDepor,
+	"Departemen Kesenian" => $nilaiDepsen,
+	"Departemen Perniagaan" => $nilaiDepniag,
+	"Departemen Asrama" => $nilaiDepas,
+	"Departemen Kesejahteraan Mahasiswa" => $nilaiDepkesma,
+	"Departemen Sosial dan Lingkungan" => $nilaiDepsos
+	];
+	
+	arsort($nilai_pref);
+	echo "<br> Nilai tertinggi <br>";
+	$rankNamaTinggi = array();
+	$rankNilaiTinggi = array();
+	foreach($nilai_pref as $org=>$nilai){
+		//echo $org." nilainya ".$nilai."<br>";
+		array_push($rankNamaTinggi, $org);
+		// array_push($rankTinggi, $nilai);
+	}
+	foreach($nilai_pref as $org=>$nilai){
+		//echo $org." nilainya ".$nilai."<br>";
+		array_push($rankNilaiTinggi, $nilai);
+		// array_push($rankTinggi, $nilai);
+	}
+	for($x=0;$x<3;$x++){
+		echo $rankNamaTinggi[$x]." dengan nilai ".$rankNilaiTinggi[$x]."<br>";
+	}
+
+	asort($nilai_pref);
+	echo "<br> Nilai terendah <br>";
+	$rankNamaRendah = array();
+	$rankNilaiRendah = array();
+	foreach($nilai_pref as $org=>$nilai){
+		//echo $org." nilainya ".$nilai."<br>";
+		array_push($rankNamaRendah, $org);
+		// array_push($rankTinggi, $nilai);
+	}
+	foreach($nilai_pref as $org=>$nilai){
+		//echo $org." nilainya ".$nilai."<br>";
+		array_push($rankNilaiRendah, $nilai);
+		// array_push($rankTinggi, $nilai);
+	}
+	for($x=0;$x<3;$x++){
+		echo $rankNamaRendah[$x]." dengan nilai ".$rankNilaiRendah[$x]."<br>";
 	}
 
 	?>
