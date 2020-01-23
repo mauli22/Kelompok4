@@ -15,7 +15,7 @@ fitur yang ada :
 link untuk survey yang digunakan : https://survey.stsn-nci.ac.id/index.php/694525
 
 
-##[DOKUMENTASI WEBSITE]
+## [DOKUMENTASI WEBSITE]
 ![image](https://user-images.githubusercontent.com/49478913/73000521-8b53ca80-3e33-11ea-95c7-24f0e4149614.png)
 ![image](https://user-images.githubusercontent.com/49478913/73000607-ae7e7a00-3e33-11ea-9f45-016a46c35788.png)
 ![image](https://user-images.githubusercontent.com/49478913/73000639-bfc78680-3e33-11ea-9d8d-3f9968cd5215.png)
