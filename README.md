@@ -13,3 +13,7 @@ fitur yang ada :
 4. Menambahkan Admin baru
 
 link untuk survey yang digunakan : https://survey.stsn-nci.ac.id/index.php/694525
+
+
+Dokumentasi kegiatan
+https://user-images.githubusercontent.com/49478913/73000521-8b53ca80-3e33-11ea-95c7-24f0e4149614.png
