@@ -16,7 +16,16 @@
 				}
 			else{
 					$check_log = mysqli_query($conn,$sql);
-    				echo "Suksess";
+					?>
+					<div class="home-wrapper">
+						<div class="col-md-10 col-md-offset-1 text-center">
+							<div class="home-content">
+									<h2>Sukses Tambah Admin !</h2>
+							</div>
+						</div>
+					</div>
+
+					<?php
 				}
 		}
 	echo "<meta http-equiv='refresh' content='1; url=?tampil=add'>";

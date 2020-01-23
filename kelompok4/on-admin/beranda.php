@@ -1,6 +1,6 @@
 <?php
 if(!defined("INDEX")) die("Halaman Tidak diketahui...");
 ?>
-<h2>Selamat Datang di Halaman Administrator</h2>
-<hr size="7px" color="#333333" />
-<h4>Pilih salah satu menu diatas untuk mengatur website!</h4>
+<h2 color="#ffff">Selamat Datang di Halaman Administrator</h2>
+<hr size="17px" color="#fff" />
+<h4 color="#ffff">Pilih salah satu menu diatas untuk menikmati layanan website!</h4>

@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body{
-	background:url("./img/gambar.jpg");
+	background:#000;
 	font : 12px arial;
 }
 #container {
@@ -9,7 +9,7 @@ body{
 	margin: 0 auto;
 }
 #header{
-	background:url("../assets/img/gambar.jpg");
+	background:url(img/aa.png);
 	height:250px;
 }
 #content{
@@ -18,7 +18,7 @@ body{
 	padding:20px;
 }
 #footer{
-	background:url("../assets/img/bg.jpg");
+	background:url(img/aa.png);
 	height:50px;
 }
 #footer p {
